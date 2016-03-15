@@ -8,7 +8,7 @@
     "companyName": "MakeAwesomeHappen",
     "enableMultiJS": true,
     "longName": "pebble-test",
-    "projectType": "native",
+    "projectType": "pebblejs",
     "resources": {
         "media": []
     },
