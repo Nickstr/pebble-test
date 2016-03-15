@@ -1,19 +1,25 @@
 {
-  "uuid": "ffa5af52-be77-4f2d-8c13-f5d9bd5b36e9",
-  "shortName": "pebble-test",
-  "longName": "pebble-test",
-  "companyName": "MakeAwesomeHappen",
-  "versionLabel": "1.0",
-  "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt", "chalk"],
-  "enableMultiJS": true,
-  "watchapp": {
-    "watchface": false
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "MakeAwesomeHappen",
+    "enableMultiJS": true,
+    "longName": "pebble-test",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "pebble-test",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "ffa5af52-be77-4f2d-8c13-f5d9bd5b36e9",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
 }
