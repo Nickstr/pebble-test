@@ -1,25 +1,47 @@
 {
-    "appKeys": {
-        "dummy": 0
-    },
+    "appKeys": {},
     "capabilities": [
         "configurable"
     ],
     "companyName": "MakeAwesomeHappen",
-    "enableMultiJS": true,
     "longName": "pebble-test",
     "projectType": "pebblejs",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            }
+        ]
     },
     "sdkVersion": "3",
     "shortName": "pebble-test",
     "targetPlatforms": [
-        "chalk"
+        "aplite",
+        "basalt"
     ],
     "uuid": "ffa5af52-be77-4f2d-8c13-f5d9bd5b36e9",
+    "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
+        "hiddenApp": false,
         "watchface": false
     }
 }
